@@ -1,0 +1,28 @@
+For Users Instructions:
+Original file directory: http://localhost/Final-Project (Ordering System with Product Inventory)/index.php
+Following Credentials from MySQL database (project_accounts) 
+
+
+
+USER LOGIN DETAILS
+
+----------User Accounts Table----------
+
+#1 - User Level
+Username: User
+Password: a
+
+#2 - User Level
+Username: Demo5
+Password: a
+
+#3 - Seller Level
+Username: DanielSeller
+Password: seller
+
+
+----------Admin Accounts Table----------
+
+#1 - Click the Administrator Login Button (Gray)
+Username: Cryobyte
+Password: abc

@@ -1,0 +1,207 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap");
+
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+html body {
+  background-color: #9bbec8;
+  padding: 56px;
+  scroll-behavior: smooth;
+}
+
+/*Navbar*/
+nav {
+  background-color: #eee;
+  padding: 1em;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+}
+
+#dot{
+  list-style-type: none;
+}
+
+/*Info*/
+.card {
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.card-body {
+  border-top: 1px solid #ddd; /* Light gray top border */
+  border-bottom: 1px solid #ddd; /* Light gray bottom border */
+  padding: 20px;
+}
+
+.product {
+  background-color: #eee;
+}
+.brand {
+  font-size: 13px;
+}
+.act-price {
+  color: green;
+  font-weight: 700;
+}
+.dis-price {
+  text-decoration: line-through;
+}
+.about {
+  font-size: 14px;
+}
+.color {
+  margin-bottom: 10px;
+}
+label.radio {
+  cursor: pointer;
+}
+
+label.radio input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+label.radio span {
+  padding: 2px 9px;
+  border: 2px solid gray;
+  display: inline-block;
+  color: gray;
+  border-radius: 3px;
+  text-transform: uppercase;
+}
+
+label.radio input:checked + span {
+  border-color: red;
+  background-color: red;
+  color: #fff;
+}
+
+label.radio input[value="orange"]:checked + span {
+  border-color: #ff8c00;
+  background-color: #ff8c00;
+  color: #fff;
+}
+
+label.radio input[value="yellow"]:checked + span {
+  border-color: #ffd700;
+  background-color: #ffd700;
+  color: #fff;
+}
+.btn-danger {
+  background-color: #164863 !important;
+  border-color: #164863 !important;
+}
+.btn-danger:hover {
+  background-color: #164863 !important;
+  border-color: #164863 !important;
+}
+.btn-danger:focus {
+  box-shadow: none;
+}
+
+.cart i {
+  margin-right: 10px;
+}
+
+#cartbtn {
+  background-color: transparent;
+  color: dimgrey;
+  border: none;
+  padding: 0px;
+  margin-right: 20px;
+  margin-top: 13px;
+}
+
+#right-container {
+  background-color: #e3eef2;
+  height: 100%;
+  width: 100%; /* You can adjust the width as needed */
+}
+
+/*Chat Section*/
+
+.chat-container {
+  max-width: 400px;
+  margin: 20px auto;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.chat-header {
+  background-color: #164863;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+.chat-body {
+  padding: 10px;
+  overflow-y: auto;
+  max-height: 300px;
+}
+
+.message {
+  margin-bottom: 15px;
+}
+
+.message.sender {
+  text-align: right;
+}
+
+.message.receiver {
+  text-align: left;
+}
+
+.message p {
+  background-color: #164863;
+  color: #fff;
+  border-radius: 8px;
+  padding: 8px;
+  display: inline-block;
+  max-width: 70%;
+}
+
+.input-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-top: 1px solid #ddd;
+}
+
+.input-container input {
+  flex: 1;
+  padding: 8px;
+  border: none;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+.input-container button {
+  background-color: #164863;
+  color: #fff;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.hide {
+  display: none;
+}

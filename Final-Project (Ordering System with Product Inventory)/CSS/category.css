@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+html body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  padding-top: 56px;
+  background-color: #cfd3d5;
+  font-family: "Montserrat", sans-serif;
+}
+
+header {
+  background-color: #1c3d50;
+  color: white;
+  text-align: center;
+  padding: 1em 0;
+}
+
+header h1 {
+  font-family: "Montserrat", sans-serif;
+}
+
+header h5 {
+  font-weight: 300;
+}
+
+nav {
+  background-color: #9bbec8;
+  padding: 1em;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+}
+
+.category-title {
+  margin-left: 25px;
+  margin-top: 10px;
+}
+
+.category-title h3 {
+  margin-top: 20px;
+  font-weight: bolder;
+}
+
+.main-content {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 2em;
+}
+
+footer {
+  background-color: #164863;
+  color: white;
+  text-align: center;
+  padding: 1em 0;
+}
+
+.card {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+  height: 370px;
+  width: 20rem;
+}
+
+/* .card-body{
+
+} */
+
+.card-title {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.card-text {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.card:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  cursor: pointer;
+}
+
+.card img {
+  width: 150px;
+  height: 150px;
+  margin-top: 10px;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+#cartbtn {
+  background-color: transparent;
+  color: dimgrey;
+  border: none;
+  padding: 0px;
+  margin-right: 20px;
+  margin-top: 13px;
+}
+
+/* #product-button{
+} */
+
+#add-button {
+  width: 50px;
+  height: 30px;
+}
+
+#quantity-group {
+  width: 20px;
+  height: 30px;
+}
+
+#log {
+  text-align: right;
+}
+
+#container {
+  background-color: #ddf2fd;
+  margin-top: 4px;
+}

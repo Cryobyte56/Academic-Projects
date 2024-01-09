@@ -1,0 +1,156 @@
+html{
+  scroll-behavior:smooth;
+}
+
+
+html body {
+  padding-top: 56px;
+  font-family: Verdana, sans-serif;
+  background-color: beige;
+}
+
+.main-container {
+  width: 1500px; /* Adjust the width as needed */
+  margin: 0; /* Remove left and right margins */
+}
+
+
+/* Style for the child containers */
+.child-container {
+  width: 700px; /* Each child container takes up 50% of the main container */
+  float: left; /* Float left to arrange containers horizontally */
+  box-sizing: border-box; /* Include padding and border in the box's total width */
+  padding: 10px; /* Add padding for spacing */
+}
+
+/* Optional: Style for content inside the child containers */
+.child-content {
+  background-color: #f4f4f4;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px,
+    rgba(0, 0, 0, 0.1) 0px 2px 4px 0px,
+    rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+}
+
+.child-container2 {
+  width: 500px; /* Each child container takes up 50% of the main container */
+  float: left; /* Float left to arrange containers horizontally */
+  box-sizing: border-box; /* Include padding and border in the box's total width */
+  padding: 10px; /* Add padding for spacing */
+}
+
+/* Optional: Style for content inside the child containers */
+.child-content2 {
+  background-color: #dde6ed;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px,
+    rgba(0, 0, 0, 0.1) 0px 2px 4px 0px,
+    rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+}
+
+#backButton {
+  display: flex;
+  align-items: center;
+  width: 110px;
+  height: 40px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  margin-top: 10px;
+  border: none;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+/* Table */
+table {
+  table-layout: fixed;
+  width: 400px;
+}
+
+.line tbody {
+  display: block !important;
+  max-height: 200px; /* Set a max height for the tbody */
+  overflow-y: auto; /* Enable vertical scrolling for tbody */
+}
+
+.line tbody td {
+  border-right: none !important;
+  overflow: hidden; /* Hide the overflow content */
+  overflow-y: scroll;
+  border: 1px solid #ddd; /* Add a border for visibility */
+  padding: 8px; /* Add padding for spacing */
+}
+
+.line th,
+.line td {
+  width: 150px !important; /* Set a fixed width for each cell */
+  font-size: 13px !important;
+  align-items: center;
+  justify-content: center;
+}
+
+#widthproduct {
+  text-align: left;
+  padding: 8px;
+  word-wrap: break-word;
+  width: 130px;
+}
+
+/* Input Group Quantity */
+.input-group button:hover {
+  outline: none;
+}
+
+.input-group button:hover.minusBtn {
+  background-color: red;
+}
+
+.input-group button:hover.plusBtn {
+  background-color: green;
+}
+
+.input-group button:active {
+  outline: none;
+}
+
+#size {
+  height: 20px;
+  font-size: 12px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Right Container */
+#summary {
+  background-color: #dde6ed;
+  font-size: 13px;
+}
+
+#itembilling {
+  font-size: 13px;
+  border-top: 1px solid #aaaaaa;
+}
+
+.total {
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.button-payment {
+  margin-top: 20px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#button-payment {
+  width: 100px;
+}
+
+#no-item{
+  color: #BE3144;
+}

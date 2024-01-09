@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  scroll-behavior: smooth;
+  text-align: center;
+}
+
+body {
+  background-color: #fffcff;
+}
+
+#cartbtn {
+  background-color: transparent;
+  color: rgb(255, 255, 255);
+  border: none;
+  padding: 0px;
+  margin-right: 20px;
+  margin-top: 9px;
+}
+
+/* Nav */
+
+#nav-top {
+  background-color: #247ba0;
+}
+
+#inputGroupFile02 {
+  text-align: center;
+  justify-content: center;
+  width: 150px;
+}
+
+#file {
+  text-align: center;
+  justify-content: center;
+  margin: 0 auto;
+  width: 500px;
+}
+
+#icon-navbar {
+  margin-left: 20px;
+}
+
+.dropdown-menu {
+  width: auto;
+  max-width: 300px; /* Set the maximum width of the dropdown container */
+  max-height: 400px; /* Set the maximum height of the dropdown container */
+  overflow-y: auto; /* Add a vertical scrollbar if needed */
+  position: absolute;
+}
+
+.profile-pic {
+  width: 50px;
+  height: 50px;
+  margin: 0 auto;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.profile-pic h2 {
+  margin-top: 5px;
+  font-size: 10px;
+  color: black;
+}
+
+/* Table */
+
+table,
+th,
+td {
+  border: 3px solid black;
+}
+
+.table-container {
+  max-width: 1000px; /* Adjust the max-width according to your preference */
+  margin: 0 auto; /* Center the container */
+  position: relative; /* Set the position to relative for absolute positioning of the button */
+}
+
+.table-container table {
+  margin: 0 auto; /* Center the table within the container */
+  max-width: 1000px;
+}
+
+.table-container td {
+  word-wrap: break-word; /* or use overflow-wrap: break-word; */
+  max-width: 500px; /* Adjust the maximum width based on your layout */
+}
+
+.table-container {
+  margin-bottom: 20px;
+}
+
+.add-button {
+  position: absolute;
+  left: 0; /* Align the button to the left */
+  margin: 0px; /* Add some margin for spacing */
+  margin-top: 10px;
+}
+
+.user-container {
+  max-width: 1200px; /* Adjust the max-width according to your preference */
+  margin: 0 auto; /* Center the container */
+  position: relative; /* Set the position to relative for absolute positioning of the button */
+}
+
+.user-container table {
+  margin: 0 auto; /* Center the table within the container */
+  max-width: 1200px;
+}
+
+.user-container td {
+  word-wrap: break-word; /* or use overflow-wrap: break-word; */
+  max-width: 500px; /* Adjust the maximum width based on your layout */
+}
+
+.user-container {
+  margin-bottom: 50px;
+}
+
+/* User Accounts Table */
+
+#user-table {
+  margin: 0 auto; /* Center the table within the container */
+}
+
+footer {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Edit Admin Profile */
+
+/* .edit-buttons{
+  justify-content: right;
+} */
